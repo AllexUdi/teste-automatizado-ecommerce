@@ -64,9 +64,5 @@ describe('Teste E2E - fluxo carrinho de compras', () => {
         cy.get('.btn_action').click()
 
         cy.get('.complete-header').should('contain','THANK YOU FOR YOUR ORDER')
-       
-
     });
-
-
   })
